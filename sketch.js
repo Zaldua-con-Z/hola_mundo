@@ -14,8 +14,7 @@ function draw() {
     let startAngle=biteSize*sin(frameCount*0.1)+biteSize
     let endAngle=TWO_PI-startAngle
     arc(mouseX, mouseY,100,100,startAngle,endAngle,PIE)
-    
-    
+
     
     noStroke
     fill(0,0,255)
